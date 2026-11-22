@@ -130,3 +130,38 @@ nav a {
 .form-button button:hover {
     background-color: #333;
 }
+
+/* Focus Highlights */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #f0f8ff;
+}
+
+/* Invalid Input */
+input:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+/* Valid Input */
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+/* Error Message */
+.error-message {
+    display: none;
+    color: red;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+input:invalid:not(:placeholder-shown)
++ .error-message {
+    display: block;
+}
