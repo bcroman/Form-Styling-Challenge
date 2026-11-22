@@ -1,3 +1,10 @@
+/* Overall */
+body {
+    margin: 0;
+    background-color: #aaa;
+    font-family: Arial, sans-serif;
+}
+
 /* Nav Bar */
 header {
     background-color: #555;
@@ -40,4 +47,31 @@ nav a {
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
+}
+
+/* Main Body */
+.contact-container {
+    background-color: white;
+    width: 80%;
+    margin: 70px auto;
+    padding: 40px;
+    border: 2px solid #444;
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+/* Form */
+.form-layout {
+    display: flex;
+    gap: 60px;
+    margin-top: 70px;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
 }
