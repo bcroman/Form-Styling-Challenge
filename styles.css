@@ -75,3 +75,23 @@ nav a {
 .right-column {
     flex: 1;
 }
+
+.left-column label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.left-column select,
+.left-column textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #555;
+    box-sizing: border-box;
+}
+
+.left-column textarea {
+    height: 180px;
+    resize: vertical;
+}
